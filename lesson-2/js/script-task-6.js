@@ -41,7 +41,7 @@ function div(arg1, arg2) {
 	}
 }
 
-// Функция переключатель математических операция 
+// Функция переключатель математических операций.
 function mathOperation(arg1, arg2, operation) {
 	switch (arguments[2]) {
 		case 'sum': return sum(arguments[0], arguments[1]); break;
