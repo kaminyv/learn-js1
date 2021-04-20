@@ -1,0 +1,15 @@
+.line {
+	height: 2px;
+	background-color: black;
+}
+
+.products-list {
+	display: grid;
+	grid-column-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.list-item__img {
+	display: block;
+	width: 100%;
+}
