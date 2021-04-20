@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'chess_ssiregular';
+    src: url('../font/chess_ssi.eot');
+    src: url('../font/chess_ssi.eot?#iefix') format('embedded-opentype'),
+         url('../font/chess_ssi.woff2') format('woff2'),
+         url('../font/chess_ssi.woff') format('woff'),
+         url('../font/chess_ssi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+table {
+	font-size: 35px;
+}
+
+tr {
+	font-family: 'chess_ssiregular';
+	height: 60px;
+}
+
+tr:first-child {
+	font-family: sans-serif;
+}
+
+tr:last-child {
+	font-family: sans-serif;
+}
+
+td {
+	width: 60px;
+	text-align: center;
+}
+
+td:first-child {
+	font-family: sans-serif;
+}
+
+td:last-child {
+	font-family: sans-serif;
+}
