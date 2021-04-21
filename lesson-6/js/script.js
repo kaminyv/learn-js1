@@ -58,8 +58,6 @@ function addCart(eventObj) {
 		}
 
 		cartInit();
-		// console.log(productName + productPrice);
-		// console.log(eventObj.target.tagName);
 	}
 }
 window.onload = init;
